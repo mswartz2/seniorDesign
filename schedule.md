@@ -5,12 +5,13 @@ General outline of what we what to accomplish each week
 # Fall
 Nov 3rd - Nov 10th
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Work on Project Description -> Maria</li>
+  <li>Finish mock up site -> Kyle</li>
+  <li>TicketMaster API test -> Brent</li>
+  <li>Eventbrite API test -> Yikai</li>
 </ul>
+
+Next meeting: Saturday Nov 7th at 9am
 
 Nov 10 - Nov 17th
 <ul>
