@@ -35,6 +35,7 @@ Shown in a list. Each event item would have:
   </ul>
   
 Results should be sorted by date (w/ soonest events listed first)
+We also might include a side bar that allows users to filter the event results
 
 
 # About page:
