@@ -4,6 +4,13 @@ General outline of what we what to accomplish each week
 
 # Fall
 Nov 3rd - Nov 10th
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
 
 Nov 10 - Nov 17th
 
