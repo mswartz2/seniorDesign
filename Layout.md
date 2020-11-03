@@ -81,6 +81,7 @@ Includes info about the project such as:
   <li>Can users sign in with FB and other platforms or only email? (I think only email would be best if 
     we want to send them any reminders or other info</li>
   <li>Will we need to do a confirmation email?</li>
+  <li>Do we want to do anything with Google Maps?</li>
   </ul>
 
 
