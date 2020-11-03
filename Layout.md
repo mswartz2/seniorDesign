@@ -7,8 +7,7 @@
   <li>Contact</li>
   <li>Register</li>
   <li>Login</li>
-  </ui>
-  </p>
+  </ul>
 
 
 # Main page (search):
@@ -26,7 +25,7 @@
 
   <li>Register</li>
   <li>Login</li>
-  </ui>
+  </ul>
     </p>
 
 
