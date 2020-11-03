@@ -77,12 +77,12 @@ Includes info about the project such as:
 # Questions
 
 <ul>
-  <li>Would it be better to include the date range when selecting a location or to filter by it after?</li>
-  <li>Can users save an event they are interested in (or would this break the API rules)?</li>
+  <li>Would it be better to include the date range when selecting a location or to filter by it after? <- default to the next week </li>
+  <li>Can users save an event they are interested in (or would this break the API rules)? -> save future events but delete past events</li>
   <li>Can users sign in with FB and other platforms or only email? (I think only email would be best if 
-    we want to send them any reminders or other info</li>
-  <li>Will we need to do a confirmation email?</li>
-  <li>Do we want to do anything with Google Maps?</li>
+    we want to send them any reminders or other info) -> only email</li>
+  <li>Will we need to do a confirmation email? -> maybe</li>
+  <li>Do we want to do anything with Google Maps? -> just do for one event (directions to place)</li>
   </ul>
 
 
