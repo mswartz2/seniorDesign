@@ -61,7 +61,7 @@ Includes info about the project such as:
  
  After a successful login, they will be directed to the My Profile page
  
- # My Profile
+ # My Profile page
  User can see and change info about their profile. This inclues:
  <ul>
   <li>Username</li>
@@ -81,7 +81,6 @@ Includes info about the project such as:
   <li>Can users sign in with FB and other platforms or only email? (I think only email would be best if 
     we want to send them any reminders or other info</li>
   <li>Will we need to do a confirmation email?</li>
-  <li>Login</li>
   </ul>
 
 
