@@ -1,9 +1,11 @@
 # Nav bar
-  -Search
-  -About
-  -Contact
-  -Register
-  -Login
+<ul>
+  <li>Search</li>
+  <li>About</li>
+  <li>Contact</li>
+  <li>Register</li>
+  <li>Login</li>
+  </ui>
 
 # Main page (search):
 
