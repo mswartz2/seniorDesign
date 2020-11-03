@@ -11,7 +11,7 @@ The database will contain information about each event's:
   
   How will the database be organized? (By location?)
   
-  Each night, the page will do some API calls and load any new info into the database and clear out any old info.
+  Each night, the program will do some API calls and load any new info into the database and clear out any old info.
   
 # User Database
   
