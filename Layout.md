@@ -1,5 +1,6 @@
-<p>
+
 # Nav bar
+<p>
 <ul>
   <li>Search</li>
   <li>About</li>
@@ -9,8 +10,9 @@
   </ui>
   </p>
 
-<p>
+
 # Main page (search):
+<p>
 
 <ul>
   <li>welcome message and search bar</li>
@@ -28,15 +30,16 @@
     </p>
 
 
- <p> 
-# Results page:
 
+# Results page:
+ <p> 
 -
   </p>
 
 
-<p>
+
 # About page:
+<p>
 -info about the project
   </p>
 
