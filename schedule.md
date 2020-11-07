@@ -26,6 +26,7 @@ Nov 10 - Nov 17th
 Nov 17th - Nov 24th
 <ul>
   <li>work on demo</li>
+  <li>work on UI</li>
 </ul>
 
 Nov 24th - Dec 1st
@@ -45,27 +46,27 @@ Dec 1st - Dec 8th
 
 # Spring
 
-Week 1:
+Week 1: Work with setting up event database
 
-Week 2:
+Week 2: Add searching to website, return results
 
-Week 3:
+Week 3: Work on UI
 
-Week 4:
+Week 4: Buffer week - clean out database
 
-Week 5:
+Week 5: Create user database - add general info (name, location, etc.)
 
-Week 6:
+Week 6: Create user database - add interests
 
-Week 7:
+Week 7: Publish site to Internet (azure or amazon)
 
-Week 8:
+Week 8: Look at T&C of the APIs and make sure we're following the rules
 
-Week 9:
+Week 9: Let user save events for future
 
-Week 10:
+Week 10: Enhancements (email notifications to registered users, etc.)
 
-Week 11:
+Week 11: More enhancements
 
 Week 12: Possibly add encryption to database
 
