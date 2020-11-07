@@ -13,9 +13,10 @@ Nov 3rd - Nov 10th
 
 Next meeting: Saturday Nov 7th at 9am
 
+This weekend: finish default ASP.NET package, get TicketMAster basic infor, add to project description
+
 Nov 10 - Nov 17th
 <ul>
-  <li></li>
   <li></li>
   <li></li>
   <li></li>
@@ -28,19 +29,18 @@ Nov 17th - Nov 24th
   <li></li>
   <li></li>
   <li></li>
-  <li></li>
 </ul>
 
 Nov 24th - Dec 1st
 <ul>
-  <li>work on presenation</li>
+  <li> work on presenation</li>
   <li>finish written project description</li>
   <li>finish demo</li>
 </ul>
 
 Dec 1st - Dec 8th
 <ul>
-  <li>work on presenation</li>
+  <li> work on presenation</li>
   <li>finish written project description</li>
   <li>finish demo</li>
 </ul>
