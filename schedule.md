@@ -13,7 +13,7 @@ Nov 3rd - Nov 10th
 
 Next meeting: Saturday Nov 7th at 9am
 
-This weekend: finish default ASP.NET package, get TicketMAster basic info, add to project description, send Mike an email about when final presentation is
+This weekend: finish default ASP.NET package, get TicketMaster basic info, add to project description, send Mike an email about when final presentation is, compare Eventful and TicketMaster results
 
 Nov 10 - Nov 17th
 <ul>
