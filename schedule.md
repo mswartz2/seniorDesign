@@ -59,7 +59,7 @@ Week 5: Create user database - add general info (name, location, etc.)
 
 Week 6: Create user database - add interests
 
-Week 7: Publish site to Internet (azure or amazon)
+Week 7: Publish site to Internet (azure or amazon), ask for other people's feedback on site
 
 Week 8: Look at T&C of the APIs and make sure we're following the rules
 
@@ -71,8 +71,8 @@ Week 11: More enhancements
 
 Week 12: Possibly add encryption to database
 
-Week 13: Testing and Debugging
+Week 13: Testing and Debugging, Edge Case Testing, ask for other people's feedback on the website
 
-Week 14: Testing and Debugging
+Week 14: Testing and Debugging, Edge Case Testing
 
 Week 15: Practice Presentation
