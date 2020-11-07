@@ -13,13 +13,14 @@ Nov 3rd - Nov 10th
 
 Next meeting: Saturday Nov 7th at 9am
 
-This weekend: finish default ASP.NET package, get TicketMaster basic info, add to project description, send Mike an email about when final presentation is, compare Eventful and TicketMaster results
+This weekend: finish default ASP.NET package - Kyle, get TicketMaster basic info - Brent, add to project description - Maria, send Mike an email about when final presentation is - Maria, compare Eventful and TicketMaster results - Yikai
 
 Nov 10 - Nov 17th
 <ul>
   <li>get Azure up</li>
   <li>try making an SQL job</li>
   <li>make name for project</li>
+  <li>look at UI</li>
   <li>work with linking API to database</li>
 </ul>
 
