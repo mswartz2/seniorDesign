@@ -13,11 +13,11 @@ Nov 3rd - Nov 10th
 
 Next meeting: Saturday Nov 7th at 9am
 
-This weekend: finish default ASP.NET package, get TicketMAster basic infor, add to project description
+This weekend: finish default ASP.NET package, get TicketMAster basic info, add to project description
 
 Nov 10 - Nov 17th
 <ul>
-  <li></li>
+  <li>get Azure up</li>
   <li></li>
   <li></li>
   <li></li>
@@ -70,7 +70,7 @@ Week 10:
 
 Week 11:
 
-Week 12:
+Week 12: Possibly add encryption to database
 
 Week 13: Testing and Debugging
 
