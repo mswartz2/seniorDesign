@@ -33,20 +33,16 @@ Nov 17th - Nov 24th
 
 Nov 24th - Dec 1st
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>work on presenation</li>
+  <li>finish written project description</li>
+  <li>finish demo</li>
 </ul>
 
 Dec 1st - Dec 8th
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>work on presenation</li>
+  <li>finish written project description</li>
+  <li>finish demo</li>
 </ul>
 
 
