@@ -9,6 +9,7 @@ Nov 3rd - Nov 10th
   <li>Finish mock up site -> Kyle</li>
   <li>TicketMaster API test -> Brent</li>
   <li>Eventbrite API test -> Yikai</li>
+  <li>Try making and SQL job -> Kyle</li>
 </ul>
 
 Next meeting: Saturday Nov 7th at 9am
@@ -17,11 +18,10 @@ This weekend: finish default ASP.NET package - Kyle, get TicketMaster basic info
 
 Nov 10 - Nov 17th
 <ul>
-  <li>get Azure up</li>
-  <li>try making an SQL job</li>
+  <li>get Azure up & look at UI - Maria (with skeleton site)</li>
+  <li>work with linking API output to work with linking API to database and site -Kyle & Yikai</li>
   <li>make name for project</li>
-  <li>look at UI</li>
-  <li>work with linking API to database</li>
+  <li>project description - Brent</li>
 </ul>
 
 Nov 17th - Nov 24th
