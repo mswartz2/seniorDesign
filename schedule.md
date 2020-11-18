@@ -26,8 +26,13 @@ Nov 10 - Nov 17th
 
 Nov 17th - Nov 24th
 <ul>
-  <li>work on demo</li>
-  <li>work on UI</li>
+  <li>work on linking VM to website (change config file) - Kyle</li>
+  <li>fix models for site - Maria and work with Kyle</li>
+  <li>finish project description and send draft (include some screenshots of stud site)</li>
+  <li>finish project mangement plan (tasks, steps, and assignments)</li>
+  <li>start PowerPoint - Yikai and work with Kyle</li>
+  <li> - Brent</li>
+
 </ul>
 
 Nov 24th - Dec 1st
