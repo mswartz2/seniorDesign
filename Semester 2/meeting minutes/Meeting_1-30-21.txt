@@ -1,0 +1,41 @@
+Meeting 1-30-21 at 10:00 am
+Members in attendance: Maria, Kyle, Yikai
+
+Kyle was having some issues connecting to the Azure site, so we trouble shot this for a while.
+We determined that it was an issue with his Visual Studio, not with the project.
+
+We discovered that the VM idea is actually going to be quite expensive to have running, so we aren't
+going use it. Instead, we will write queries that we will manually run.
+
+Maria sent Gamboa an email about setting up a meeting time, but we still need decide on a 
+definite mentor meeting time.
+
+
+Things to complete this week:
+Maria - Set up GitHub with all the new docs for semester 2
+      - Finish setting up database design
+      - Figure out how to connect Azure and GitHub (project is in Azure but needs to be in GitHub too)
+      - help Yikai user searching
+
+Yikai - Set up user login info
+      - Saving what the user searches for
+
+Kyle  - Come up with list of all potential categories. 
+      - Connect with Eventful
+
+Brent - Implement sending automatic emails
+      - Finish setting up the Trello Board
+
+Since we don't have real data loaded in the database yet, Maria and Yikai will work make a search
+bar and have what the user types displayed at the top of the page that lists all of the pseudo 
+events. The main point of this is to just save what the user does and send it to another page of 
+the application.
+
+
+Next meeting Wednesday at 3:40
+
+--------------------------------------------------
+Upcoming things to implement after the above tasks are complete
+-loading the API results in the database
+-possible starts working on filtering
+-write a query to modify 
