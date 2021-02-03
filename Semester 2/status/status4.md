@@ -1,3 +1,5 @@
+Status video link: _______
+
 Recap of what was planned for the last 3 weeks
 
 What was done during the last 3 weeks (by whom):
