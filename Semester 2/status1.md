@@ -30,9 +30,7 @@ Details Description of Goals/ Plan for Next 3 Weeks(in final summary discuss whe
     ________
 
 
-Confidence on completion from each team member + team average
-
-Scale of 1-5; 1 = unconfident;  3 = toss-up; 5 = confident
+Confidence on completion from each team member + team average. Scale of 1-5; 1 = unconfident;  3 = toss-up; 5 = confident
 
     Kyle's Score: ___
     Brent's Score: ___
