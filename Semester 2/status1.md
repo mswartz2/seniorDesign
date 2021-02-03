@@ -4,7 +4,7 @@ What was done during the last 3 weeks (by whom):
 <ul>
     <li>Description of tasks completed</li>
     <li>Your choice of quantifiable metric(s)(e.g., hours, lines of code, meeting count, doc/test coverage %,...)</li>
-<ul>
+</ul>
     
     
 Successes        
@@ -12,7 +12,7 @@ Successes
     <li>What are your accomplishments?</li>
     <li>What solutions were successful?</li>
     <li>Were there other things that you tried that did not work and why?</li>
-<ul>
+</ul>
 
 Roadblocks/Challenges
 <ul>
@@ -20,7 +20,7 @@ Roadblocks/Challenges
     <li>Describe how you overcame them</li>
     <li>What challenges are still left</li>
     <li>What do you need help with? How can your mentor help?</li>
-<ul>
+</ul>
     
 Changes/Deviation from Plan (if applicable)
 
