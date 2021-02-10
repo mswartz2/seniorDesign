@@ -16,7 +16,7 @@ correlate more with the data that the APIs return.
 Kyle has been having some issues getting a key for the Eventful API. Yikai was able to get one last semester, so 
 she put the information into Discord so that Kyle can use that key instead. Last week, Maria and Kyle met up to work
 on the database design and make sure that everything is ready for loading the data from the API results into the database.
-Kyle also looked into adding GoogleMaps to the project
+Kyle also looked into adding GoogleMaps to the project. He also worked with embedding the URL into the event list.
 
 Yikai and Brent were busy last week, so they didn't make much progress on their parts yet. They are planning on doing more 
 work this week.

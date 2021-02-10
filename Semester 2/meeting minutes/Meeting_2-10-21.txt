@@ -1,0 +1,34 @@
+Meeting 2-3-21 at 3:40 pm
+Members in attendance: Maria, Kyle, Yikai, Brent
+
+
+Updates:
+Kyle - Worked on creating a procedure to load data from TicketMaster.
+Yikai - Worked with Maria on implementing user profiles. She got the drop down working for selecting a state. 
+City will be entered manually (no drop-down). 
+Brent - Looked into sending automatic emails. He ran into some issues with connecting Hangfire to ASP.NET
+Maria - Added almost all of the attributes to the user class. Now, the user can add information about themselves
+when signing up for an account. 
+
+
+We also discussed how to implement emails with recommendations. We are just going to a couple send emails with the top
+events in a city for each user interest so that users aren't bombarded with too many event suggestions.
+
+
+Design changes:
+	-Kyle decided that we should just use the built in ASP.NET database instead of having a database on a virtual machine
+	because cuase the machine was getting to expensive.
+	-We also might limit the cities some of the top cities and Laramie.
+
+
+Things to complete this week:
+Maria - Finish fixing the user categories/interests, make a user profile page, help Brent use Hangfire to send emails
+Kyle  - work on finish mapping the TicketMaster data and finish the stored procedures for getting and deleting data from the 
+correct table and get updates with duplicate data working correctly. If time permits, he will start work on getting the Eventful 
+data to load as well.
+Brent - Get an automatic email to send to a user. Maria will help with this. 
+Yikai - fix location for user profile. If time permits, also look into different html formatting options or themes.
+
+
+Next meeting Wednesday at 3:40pm
+Maria and Brent will also be meeting Friday at 9:00 am
