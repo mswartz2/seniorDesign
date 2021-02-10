@@ -6,4 +6,6 @@ Team: Yotta
 
 Members: Maria Swartz, Brent Pearce, Yikai Peng, Kyle Beitz
 
+The code repo for this project is at: https://dev.azure.com/SeniorDesignTeamYotta/Demo_V5
+
 ADD A FINAL DESCRIPTION HERE
