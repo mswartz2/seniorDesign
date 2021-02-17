@@ -1,36 +1,43 @@
 <b>Status video link:</b> _______
 
 <b>Recap of what was planned for the last 3 weeks</b>
-- Create stored procedures to pull API data from TicketMaster, populate relational database, 
-  delete old records and update web application.
-- Investigate email third party software Hangfire.
+- Create stored procedures to pull API data from TicketMaster, populate relational database, delete old records and update web application.
+- Investigate Hangfire (third party software for sending emails)
 - Set up user profiles and store information in user database
+- General database setup
 - Set up user interests
-- UI
+- Set up general UI
 
 <b>What was done during the last 3 weeks (by whom):</b>
 
-DESCRIPTION OF TASKS COMPLETED:
-    Kyle: 
+Description of Task Completed:
+
+Kyle: 
+
     - Created three stored procedures to populate TicketMaster API data to the web application. The first stored procedure populates the record amount for how many records to pull.
     - The second stored procedure pulls the data from the TicketMaster API and populates the database.
     - The third stored procedure deletes any old records from the database.
-    - Updated the URL link for the events page to make it a clickable link that the user can click that takes them to buy tickets
-  for that event.
-    Maria:
+    - Updated the URL link for the events page to make it a clickable link that the user can click that takes them to buy tickets for that event.
+Maria:
+
+
     - Finished setting up general database layout.
     - Setup the profile and registration pages.
     - Enabled user to add interests to their profile page.
     - Setup the Semester2 section of the GitHub repo with all the documents that we anticipate needing for the semester with general layouts and descriptions for each file.
-    Yikai:
+Yikai:
+
     - Chose a new bootstrap theme and started figured out how to implement it with our current codebase.
     - Worked with Maria on the City and State aspects of the registration page.
-    Brent: 
+Brent: 
+
     - Partially implemented an email library for use in our web application using Mailjets API to send emails.
 	- Learned about how to create and host a private Nuget package on Azure-DevOps.
 	- Began unit testing methods that send Emails to ensure methods successfully sent emails and emails are properly formatted.
 	- Gained a better understanding C# and the .NET Framework.
-QUANTIFIABLE METRIC CHOOSEN: Hours worked
+	
+Quantifiable  Metric Choosen: Hours worked
+
     -Kyle: worked about 6 hours each week.
     -Maria: worked about 6 hours a week for weeks 1 and 2. Worked 6 hours on code for week 3 plus additional time for adding eveyone's sections to the status doc and editing and uploading the video.
     -Yikai: worked about 6 hours each week.
