@@ -14,7 +14,8 @@
 
 Kyle: 
 
-    - Created three stored procedures to populate TicketMaster API data to the web application. The first stored procedure populates the record amount for how many records to pull.
+    - Created three stored procedures to populate TicketMaster API data to the web application. 
+      The first stored procedure populates the record amount for how many records to pull.
     - The second stored procedure pulls the data from the TicketMaster API and populates the database.
     - The third stored procedure deletes any old records from the database.
     - Updated the URL link for the events page to make it a clickable link that the user can click that takes them to buy tickets for that event.
@@ -38,7 +39,7 @@ Brent:
 	
 <b>Quantifiable  Metric Choosen: Hours worked</b>
 
-    - Kyle: worked about 6 hours each week.
+    - Kyle: worked about 6 hours for weeks 1 and 2. Worked 6-8 hours for week 3.
     - Maria: worked about 6 hours a week for weeks 1 and 2. Worked 6 hours on code for week 3 plus additional time for adding eveyone's sections to the status doc and editing and uploading the video.
     - Yikai: worked about 6 hours each week.
     - Brent: worked about 6 hours each week.
