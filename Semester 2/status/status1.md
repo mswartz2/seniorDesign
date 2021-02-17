@@ -18,14 +18,16 @@ Kyle:
       The first stored procedure populates the record amount for how many records to pull.
     - The second stored procedure pulls the data from the TicketMaster API and populates the database.
     - The third stored procedure deletes any old records from the database.
-    - Updated the URL link for the events page to make it a clickable link that the user can click that takes them to buy tickets for that event.
+    - Updated the URL link for the events page to make it a clickable link that the user can click that 
+      takes them to buy tickets for that event.
 Maria:
 
 
     - Finished setting up general database layout.
     - Setup the profile and registration pages.
     - Enabled user to add interests to their profile page.
-    - Setup the Semester2 section of the GitHub repo with all the documents that we anticipate needing for the semester with general layouts and descriptions for each file.
+    - Setup the Semester2 section of the GitHub repo with all the documents that we 
+      anticipate needing for the semester with general layouts and descriptions for each file.
 Yikai:
 
     - Chose a new bootstrap theme and started figured out how to implement it with our current codebase.
@@ -34,13 +36,15 @@ Brent:
 
     - Partially implemented an email library for use in our web application using Mailjets API to send emails.
 	- Learned about how to create and host a private Nuget package on Azure-DevOps.
-	- Began unit testing methods that send Emails to ensure methods successfully sent emails and emails are properly formatted.
+	- Began unit testing methods that send Emails to ensure methods successfully sent emails and emails 
+	  are properly formatted.
 	- Gained a better understanding C# and the .NET Framework.
 	
 <b>Quantifiable  Metric Choosen: Hours worked</b>
 
     - Kyle: worked about 6 hours for weeks 1 and 2. Worked 6-8 hours for week 3.
-    - Maria: worked about 6 hours a week for weeks 1 and 2. Worked 6 hours on code for week 3 plus additional time for adding eveyone's sections to the status doc and editing and uploading the video.
+    - Maria: worked about 6 hours a week for weeks 1 and 2. Worked 6 hours on code for week 3 plus 
+      additional time for adding eveyone's sections to the status doc, editing status doc, and editing and uploading the video.
     - Yikai: worked about 6 hours each week.
     - Brent: worked about 6 hours each week.
     
