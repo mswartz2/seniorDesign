@@ -10,7 +10,7 @@
 
 ## What was done during the last 3 weeks (by whom):
 
-<b>Description of Task Completed:</b>
+<b>Description of Tasks Completed:</b>
 
 Kyle: 
 
@@ -43,8 +43,8 @@ Brent:
 <b>Quantifiable  Metric Choosen: Hours worked</b>
 
     - Kyle: worked about 6 hours for weeks 1 and 2. Worked 6-8 hours for week 3.
-    - Maria: worked about 6 hours a week for weeks 1 and 2. Worked 6 hours on code for week 3 plus 
-      additional time for adding eveyone's sections to the status doc, editing status doc, and editing and uploading the video.
+    - Maria: worked about 6 hours a week for weeks 1 and 2. Worked 6 hours on code for week 3 plus additional 
+      time for adding eveyone's sections to the status doc, editing status doc, and editing and uploading the video.
     - Yikai: worked about 6 hours each week.
     - Brent: worked about 6 hours each week.
     
@@ -54,11 +54,15 @@ Brent:
 - TicketMaster data is successfully loading in the database and displaying on the webpage.
 - Created URL link to allow users to buy tickets to the events.
 - Investigating Hangfire as a procedure to produce recommendation engine emails to users.
+- Got a very basic email to send.
+- Picked a new bootstrap theme.
+- Setup user profile in the database and pages for user to view and edit information.
+- Got editing interests from the profile page to work.
 
 ## Roadblocks/Challenges
 
-- To store city and state entries from the registration page, whenever the user types in something, it will be added  to the database, which is not a idea as it increases storage usage. Additionally, there would be a "Laramie, WY" location for each different user who's hometown is Laramie. Yikai is currently working with the team to come up with a better solution. We are considering having a set of city/state pairs that the user can choose from instead of having the, type in their information.
-- In Hangfire, the background job scheduling and proccessing framework we decided to us still isn't working. It seems like we are having difficulties getting our database or possibly server to communicate with our web application. To overcome this challenege, we are going to do more research about Hangfire. If this doesn't work, we will use a different way to send automatic emails.
+- To store city and state entries from the registration page, whenever the user types in something, it is always added to the database, which is not a idea as it increases storage usage. For example, there would be a "Laramie, WY" location for each different user who's hometown is Laramie. Yikai is currently working with the team to come up with a better solution. We are considering having a set of city/state pairs that the user can choose from instead of having them type in their information.
+- In Hangfire, the background job scheduling and proccessing framework we decided to use still isn't working. It seems like we are having difficulties getting our database or possibly server to communicate with our web application. To overcome this challenege, we are going to do more research about Hangfire. If this doesn't work, we will use a different way to send automatic emails.
 - Brent has little experiance with C# and the .NET Framework. He is learning a lot but feels like there is still a lot for him to learn. To overcome this challenge, he has been reading lots of documentation.
 - Maria is having a bit of trouble saving the user interests on the registration page. She is going to try looking over the code and some documentation more to solve this probelm. If she still cannot solve this problem, she is going to change the flow of the registration page because she already got the adding/editing interests section working on the profile page.
 - We were having a problem with the virtual machine quickly costing a lot. We overcame this by changing our design plan to use the free version of SQL server within the web application itself.
