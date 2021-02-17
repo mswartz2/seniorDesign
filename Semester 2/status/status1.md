@@ -1,4 +1,5 @@
-<b>Status video link:</b> _______
+<b>Status video link:</b> https://youtu.be/KHzvBnqvFRQ
+
 
 ## Recap of what was planned for the last 3 weeks
 - Create stored procedures to pull API data from TicketMaster, populate relational database, delete old records and update web application.
