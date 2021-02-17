@@ -1,6 +1,6 @@
-Status video link: _______
+<b>Status video link:</b> _______
 
-Recap of what was planned for the last 3 weeks
+<b>Recap of what was planned for the last 3 weeks</b>
 - Create stored procedures to pull API data from TicketMaster, populate relational database, 
   delete old records and update web application.
 - Investigate email third party software Hangfire.
@@ -8,7 +8,7 @@ Recap of what was planned for the last 3 weeks
 - Set up user interests
 - UI
 
-What was done during the last 3 weeks (by whom):
+<b>What was done during the last 3 weeks (by whom):</b>
 
 DESCRIPTION OF TASKS COMPLETED:
     Kyle: 
