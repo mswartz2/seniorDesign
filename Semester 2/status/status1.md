@@ -1,5 +1,8 @@
 <b>Status video link:</b> https://youtu.be/KHzvBnqvFRQ
 
+Note: The code repo for this project is at: https://dev.azure.com/SeniorDesignTeamYotta/Demo_V5
+(Maria added the instructors as members of the Azure project. Please let us know if the links need resent or anything.) 
+
 
 ## Recap of what was planned for the last 3 weeks
 - Create stored procedures to pull API data from TicketMaster, populate relational database, delete old records and update web application.
