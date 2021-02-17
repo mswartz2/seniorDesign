@@ -10,7 +10,7 @@
 
 ## What was done during the last 3 weeks (by whom):
 
-Description of Task Completed:
+<b>Description of Task Completed:</b>
 
 Kyle: 
 
@@ -36,7 +36,7 @@ Brent:
 	- Began unit testing methods that send Emails to ensure methods successfully sent emails and emails are properly formatted.
 	- Gained a better understanding C# and the .NET Framework.
 	
-Quantifiable  Metric Choosen: Hours worked
+<b>Quantifiable  Metric Choosen: Hours worked</b>
 
     - Kyle: worked about 6 hours each week.
     - Maria: worked about 6 hours a week for weeks 1 and 2. Worked 6 hours on code for week 3 plus additional time for adding eveyone's sections to the status doc and editing and uploading the video.
@@ -45,9 +45,9 @@ Quantifiable  Metric Choosen: Hours worked
     
 ## Successes        
 
-    What are your accomplishments?
-    What solutions were successful?
-    Were there other things that you tried that did not work and why?
+    [//]: <> (What are your accomplishments?)
+    [//]: <> (What solutions were successful?)
+    [//]: <> (Were there other things that you tried that did not work and why?)
 
     - Created stored procedures to populate API data to database.
     - TicketMaster data is successfully loading in the database and displaying on the webpage.
