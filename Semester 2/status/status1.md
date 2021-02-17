@@ -45,38 +45,27 @@ Brent:
     
 ## Successes        
 
-    <!--- (What are your accomplishments?)
-     (What solutions were successful?)
-    (Were there other things that you tried that did not work and why?) -->
-
-    - Created stored procedures to populate API data to database.
-    - TicketMaster data is successfully loading in the database and displaying on the webpage.
-    - Created URL link to allow users to buy tickets to the events.
-    - Investigating Hangfire as a procedure to produce recommendation engine emails to users.
+- Created stored procedures to populate API data to database.
+- TicketMaster data is successfully loading in the database and displaying on the webpage.
+- Created URL link to allow users to buy tickets to the events.
+- Investigating Hangfire as a procedure to produce recommendation engine emails to users.
 
 ## Roadblocks/Challenges
- 
-    Describe the Challenges
-    Describe how you overcame them
-    What challenges are still left
-    What do you need help with? How can your mentor help?
 
-    - To store city and state entries, whenever the user types in something, it will add up to the database, which is not 
-idea as it increases storage usage. I am currently working with my team to come up with a batter solution
+- To store city and state entries from the registration page, whenever the user types in something, it will be added  to the database, which is not a idea as it increases storage usage. Additionally, there would be a "Laramie, WY" location for each different user who's hometown is Laramie. Yikai is currently working with the team to come up with a better solution. We are considering having a set of city/state pairs that the user can choose from instead of having the, type in their information.
+- In Hangfire, the background job scheduling and proccessing framework we decided to us still isn't working. It seems like we are having difficulties getting our database or possibly server to communicate with our web application. To overcome this challenege, we are going to do more research about Hangfire. If this doesn't work, we will use a different way to send automatic emails.
+- Brent has little experiance with C# and the .NET Framework. He is learning a lot but feels like there is still a lot for him to learn. To overcome this challenge, he has been reading lots of documentation.
+- Maria is having a bit of trouble saving the user interests on the registration page. She is going to try looking over the code and some documentation more to solve this probelm. If she still cannot solve this problem, she is going to change the flow of the registration page because she already got the adding/editing interests section working on the profile page.
+- We were having a problem with the virtual machine quickly costing a lot. We overcame this by changing our design plan to use the free version of SQL server within the web application itself.
 
-	- In Hangfire, the background job scheduling and proccessing framework we decided to us still isn't working. It seems like we are having difficulties getting our database or possibly server to communicate with our web application. 
-	- Brent has little experiance with C# and the .NET Framework. He is learning a lot but feels like there is still a lot for him to learn.
-- Still investigating how to get the Hangifre software to work with the web application.
-
--At this point in time, we don't need mentor help on anything.
+At this point in time, we don't need mentor help on anything.
     
-
 ## Changes/Deviation from Plan (if applicable)
  
-    - We are considering about getting rid of the option to link a Google account to the site. Users will still have to enter a lot of other information about their interests even with an account, so linking with Google won't really change the user's sign-up efficiency or time. It also makes the overall registration process a lot more complicated.
-    - Kyle and Maria discussed the stored procedure for loading events into the database. Originally, we had planned on leaving an event in the database if it was already loaded. We have decided to change this so that the old version of the event will be deleted, and the new version will be added. The events will likely have identical information, but if the price, address, or other information has changed, it wouldn't be reflected if we just kept the original event information in the database.
-    - Maria and Kyle added a Genre model to the database. This is similar to the Categories item. TicketMaster returns an event's genre and classification/category, so we want this reflected in our database. Users' interests will still only be linked to categories (no genres).
-    - We originally planned to use a virtual machine with sql server on it to use as are database and send emails from. We discovered that the pricing on Azure was going to be too much for us to afford for the semester, so we switched to the free version of SQL server within the web application itself.
+- We are considering about getting rid of the option to link a Google account to the site. Users will still have to enter a lot of other information about their interests even with an account, so linking with Google won't really change the user's sign-up efficiency or time. It also makes the overall registration process a lot more complicated.
+- Kyle and Maria discussed the stored procedure for loading events into the database. Originally, we had planned on leaving an event in the database if it was already loaded. We have decided to change this so that the old version of the event will be deleted, and the new version will be added. The events will likely have identical information, but if the price, address, or other information has changed, it wouldn't be reflected if we just kept the original event information in the database.
+- Maria and Kyle added a Genre model to the database. This is similar to the Categories item. TicketMaster returns an event's genre and classification/category, so we want this reflected in our database. Users' interests will still only be linked to categories (no genres).
+- We originally planned to use a virtual machine with an SQL server on it to use as are database and send emails from. We discovered that the pricing on Azure was going to be too much for us to afford for the semester, so we switched to the free version of SQL server within the web application itself.
 
 
 ## Details Description of Goals/ Plan for Next 3 Weeks(in final summary discuss where your project could go from here)
@@ -108,9 +97,9 @@ Brent:
 
 ## Confidence on completion from each team member + team average. Scale of 1-5; 1 = unconfident;  3 = toss-up; 5 = confident
 
-    Kyle's Score: 5
-    Brent's Score: 4
-    Yikai's Score: 5
-    Maria's Score: 5
+- Kyle's Score: 5
+- Brent's Score: 4
+- Yikai's Score: 5
+- Maria's Score: 5
 
-    Team Average: 4.75
+Team Average: 4.75
