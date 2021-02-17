@@ -45,9 +45,9 @@ Brent:
     
 ## Successes        
 
-    [//]: <> (What are your accomplishments?)
-    [//]: <> (What solutions were successful?)
-    [//]: <> (Were there other things that you tried that did not work and why?)
+    <!--- (What are your accomplishments?)
+     (What solutions were successful?)
+    (Were there other things that you tried that did not work and why?) -->
 
     - Created stored procedures to populate API data to database.
     - TicketMaster data is successfully loading in the database and displaying on the webpage.
