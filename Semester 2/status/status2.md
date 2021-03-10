@@ -1,4 +1,4 @@
-Status video link: _______
+<b>Status video link:</b> _______
 
 Note: The code repo for this project is at: https://dev.azure.com/SeniorDesignTeamYotta/Demo_V5
 (Maria added the instructors as members of the Azure project. Please let us know if the links need resent or anything.) 
@@ -16,22 +16,26 @@ Note: The code repo for this project is at: https://dev.azure.com/SeniorDesignTe
 <b>Description of Tasks Completed:</b>
 
 Kyle:
+    
     - Researched second event API to use for data loading
     - Started implementing Stubhub's API for a second event data source.
 
 Maria:
+    
     - Finished the registration page and fixed all of the errors there.
     - Set up user with saved evented (ability to save events, view saved events, and delete saved events)
     - Set up filtering by category and helped Yikai and Brent with LINQ queries and other trouble shooting for their filtering.
     -Set up events page differently to only display necessary information to users
 
 Yikai:
+    
     -Finshed setting up the user profile page with Maria.
     -Set up the UI for the home page
     -Added event filtering for date and location
 
 Brent: 
-	- Made further progress on email library. This included:
+	
+    - Made further progress on email library. This included:
         - Creating an HTML string builder.
         - Finding and modifying a template for our welcome eamil.
 	- Created two dropdown menus to filter events by minimum and maximum price.
@@ -75,28 +79,32 @@ Brent:
 ## Details Description of Goals/ Plan for Next 3 Weeks(in final summary discuss where your project could go from here)
 
 Kyle:
+    
     - Create API stored procedure to get Stubhub data.
     - Create stored procedure to delete old Stubhub events.
     - Create stored procedure to send recommendation emails.
 
 Maria
+    
     - Fix all of the LINQ queries for data filtering
     - Make sure that the links in the site have a logical flow.
     - Help with general site polishing and UI
     - Possibly look into adding GoogleMaps if time permits
 
 Yikai
+    
     - Help Kyle with the StubHub API
     - Set up UI and design for the rest of the pages
     - Start planning for publishing the site during the 4th milestone
 
 Brent
+    
     - Finish and integrate the Email Library in our project. This will include:
         - Troubleshoot welcome eamil personalization.
         - Creating a function that given a list of users and thier saved events
           sends an email to each user containing their events
         - Converting the email Library to a Nuget package.
-	- Assist in polishing the site as requested.
+    - Assist in polishing the site as requested.
 
 Confidence on completion from each team member + team average. Scale of 1-5; 1 = unconfident;  3 = toss-up; 5 = confident
 
