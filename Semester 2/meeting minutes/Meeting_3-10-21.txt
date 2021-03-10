@@ -1,0 +1,23 @@
+Meeting 3-10-21 at 3:40 pm
+Members in attendance: Maria, Kyle, Yikai, Brent
+
+
+Updates:
+Kyle- looked at StubHub
+Yikai- wokrked on filtering by 
+Maria- worked on saving events and helping with filtering
+Brent- price filtering, worked on welcome email
+
+
+Design changes:
+-maybe change to only allow one price for filtering
+
+
+Things to complete this week:
+Maria-fix the LINQ queries with Yikai
+Yikai- filtering by city state and date, UI
+Kyle- get StubHub up and running
+Brent- get the Hangfire branch merged into master, work on welcome email, work on sending personal emails
+
+
+Next meeting Wednesday at 3:40pm
