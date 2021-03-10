@@ -1,0 +1,24 @@
+Meeting 2-3-21 at 3:40 pm
+Members in attendance: Maria, Kyle, Yikai, Brent
+
+
+Updates:
+Kyle- worked on finding a new API 
+Yikai- UI for home page, search events location drop down
+Maria- worked on saved events and filtering events by category
+Brent- worked on phrasing and template for email.
+
+
+Design changes:
+-Eventbrite doesn't work any more. We are considering using StubHub, MeetUp, or finding a different API - after some work, we decided on StubMaster
+
+
+Things to complete this week:
+Maria- show saved events on the profile page, enable only saving one event, help with filtering
+Kyle- Kyle is moving so he will be busy, but he's going to try working on getting StubHub connected and work on getting recommendations
+Brent- work on price and date filtering
+Yikai- filtering searching
+
+
+Next meeting Wednesday at 3:40pm
+Maria and Brent are getting together to work on event searching

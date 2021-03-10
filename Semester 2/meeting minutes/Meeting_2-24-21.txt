@@ -1,0 +1,24 @@
+Meeting 2-3-21 at 3:40 pm
+Members in attendance: Maria, Kyle, Yikai, Brent
+
+
+Updates:
+Kyle- worked a bit with the Eventful stuff
+Yikai- fixed user hometown
+Maria- Fixed registration page, started working with saving events
+Brent- Got a very basic Hangfire set up
+
+
+Design changes:
+-maybe do drop down for searching events
+
+
+Things to complete this week:
+Maria- Finish saving events, start working on searching
+Kyle- finish Eventful and start looking at suggesting events for users based on interests
+Brent- finish HangFire and work with Maria on event 
+Yikai- with more with UI and possibly help with event searching, make state choices alphabetical
+
+
+Next meeting Wednesday at 3:40pm
+Maria and Brent are getting together to work on event searching

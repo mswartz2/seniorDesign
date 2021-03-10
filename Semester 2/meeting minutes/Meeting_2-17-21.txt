@@ -1,0 +1,22 @@
+Meeting 2-17-21 at 3:40 pm
+Members in attendance: Maria, Kyle, Yikai, Brent
+
+
+Updates:
+Kyle - loaded TicketMaster data 
+Maria - started working with user interests
+Brent - more investigation into Hangfire
+Yikai - worked with setting up the user hometown
+
+
+Design changes:
+Location for user profiles
+
+
+Things to complete this week:
+Kyle - try to help Brent with Hangfire and
+Brent - get Hangfire working and make a template
+Maria - finish setting up user profile
+Yikai - get the theme implemented and fix location in user
+
+Next meeting Wednesday at 3:40pm
