@@ -1,4 +1,4 @@
-<b>Status video link:</b> _______
+<b>Status video link:</b> https://www.youtube.com/watch?v=kk_Hk4CHM1w
 
 Note: The code repo for this project is at: https://dev.azure.com/SeniorDesignTeamYotta/Demo_V5
 (Maria added the instructors as members of the Azure project. Please let us know if the links need resent or anything.) 
