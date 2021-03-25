@@ -1,0 +1,28 @@
+Meeting 3-10-21 at 3:40 pm
+Members in attendance: Maria, Kyle, Yikai
+
+
+Updates:
+Kyle- got StubHub to load data
+Yikai- started working on UI and added date 
+Maria- fixed filtering and added
+Brent- a bit of Hangfire work
+
+Main things to do on project:
+-enhance UI
+-get StubHub fixed
+-sending emails
+-doing suggestions
+-google maps
+
+Design changes:
+-running jobs automatically
+
+
+Things to complete this week:
+Maria- look at getting Google maps, see how events load with 100s of events
+Yikai- enhance UI (work on filtering bar, 
+Kyle- finish up the StubHub, get 100+ events loaded
+Brent- more Hangfire?
+
+Next meeting Wednesday at 3:40pm
