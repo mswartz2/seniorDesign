@@ -27,7 +27,8 @@ Kyle:
     - Fixed issue with TicketMaster API stored procs where it was not adding catgories, genres and locations correctly.
     - Fixed issue with deleting old TicketMaster API data.
 	- We were missing deleting the locations, genres and categories for the specific event we were deleting.
-    - Fixed issue with TicketMaster tables where we were not able to correctly identify a specific event within the genre and categories table because there was no unique look up column for the sepcific event.
+    - Fixed issue with TicketMaster tables where we were not able to correctly identify a specific event within the genre 
+      and categories table because there was no unique look up column for the sepcific event.
     - Fixed issue with TicketMaster API stored procedure timing out for max API calls within a certain time period.
 	- We added a 0.05 second delay between the while loop so that we don't hit the max API limit.   
 
@@ -41,15 +42,17 @@ Maria:
 Yikai:
     
     - Worked on enhancement of the event filtering page. 
-    - Fixed the city selection dropdown list. Before, there were duplicates, but she found a way to remove the repeating ones, and now they are also ordered from a to z.
+    - Fixed the city selection dropdown list. Before, there were duplicates, but she found a way to remove the repeating ones, and now 
+      they are also ordered from a to z.
     - Created the filtering box. Used the boostrap column to acheive this.
 
 Brent: 
 	
-    - Found cleaner API with SendGrid as opposed to Mailjet. SendGrid also has helper libraries that will better implement some of the Email Library I was working on.
+    - Found cleaner API with SendGrid as opposed to Mailjet. SendGrid also has helper libraries that will better implement 
+      some of the Email Library he was working on.
     - Finnally got Hangfire working for everyone. Previously it would only work on Brent's laptop. 
-    - Brent found the StringTemplate library that should enable creating the emails content much more easily, quickly and in a cleaner way than using string concatenation.
-
+    - Brent found the StringTemplate library that should enable creating the emails content much more easily, quickly and in 
+      a cleaner way than using string concatenation.
 	
 <b>Quantifiable  Metric Choosen: Hours worked</b>
 
@@ -67,7 +70,7 @@ Brent:
 - Implemented GoogleMaps
 - Implemented paging
 - Fixed LINQ queries for filtering
-- Found cleaner API with SendGrid as opposed to Mailjet. SendGrid also has helper libraries that will better implement some of the Email Library I was working on.
+- Found cleaner API with SendGrid as opposed to Mailjet. SendGrid also has helper libraries that will better implement some of the Email Library he was working on.
 - Finnally got Hangfire working for everyone. Previously it would only work on Brent's laptop. 
 - Brent found the StringTemplate library that should enable creating the emails content much more easily, quickly and in a cleaner way than using string concatenation.
 - Research/Investigated StubHub API and got familiar with the format.
