@@ -1,0 +1,24 @@
+Meeting 3-10-21 at 3:40 pm
+Members in attendance: Maria, Kyle, Yikai
+
+
+Updates:
+Kyle- got stubhub working and fixed errors
+Yikai- 
+Maria- fixed lots of little errors in the site
+Brent- worked with sending emails
+
+Main things to do on project:
+-enhance UI
+-get StubHub fixed
+-sending emails
+-doing suggestions
+
+
+Things to complete this week:
+Maria- finish paging
+Yikai- finish search bar, get state/city set up
+Kyle- get data loaded from stubhub
+Brent- get an email to send
+
+Next meeting Wednesday at 3:40pm
