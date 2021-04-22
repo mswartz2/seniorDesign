@@ -50,7 +50,7 @@ Brent:
 <b>Quantifiable  Metric Choosen: Hours worked</b>
 
     - Kyle: worked 20 hours total
-    - Maria: worked about 6 hours for week 1 and 8 hours for week 2 and 9 hours for week 3 (plus additional time for adding eveyone's 
+    - Maria: worked about 6 hours for week 1 and 8 hours for week 2 and 11 hours for week 3 (plus additional time for adding eveyone's 
       sections to the status doc, editing status doc, and editing and uploading the video in week 3).
     - Yikai: worked 5 hours a week
     - Brent: worked 27 hours total
