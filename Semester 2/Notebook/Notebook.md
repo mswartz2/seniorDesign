@@ -22,6 +22,7 @@
 	Found in the “Notebook” folder.
 
 ## Summary of Final Implementation
+
 1.	Design
 	Write some stuff here…
 
