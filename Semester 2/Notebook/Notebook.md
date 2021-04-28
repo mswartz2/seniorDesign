@@ -22,7 +22,7 @@
 	Found in the “Notebook” folder.
 
 ## Summary of Final Implementation
-	## 1. Design
+1.	Design
 	Write some stuff here…
 
 2.	Limitations
@@ -32,17 +32,33 @@
 	Write some stuff here…
 
 4.	Statement of Work
-    a.	Statement of Work – Brent
-		Write some stuff here…
-
+    a.	Statement of Work – Kyle
+	-
+	-
+	-
+	-
+	
     b.	Statement of Work – Brent
-		Write some stuff here…
+	-
+	-
+	-
+	-
+	-
+	
 
     c.	Statement of Work – Yikai
-		Write some stuff here…
+	-
+	-
+	-
+	-
+	-
 
     d.	Statement of Work – Maria
-		Write some stuff here…
+	-
+	-
+	-
+	-
+	-
 
 ## Reflection on your team’s ability to design, implement, and evaluate a solution
 1.	Lessons Learned
