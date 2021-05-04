@@ -84,7 +84,7 @@ Two versions of the UML database design (one from the end of the fall semester a
 	- Find events to suggest to user - yes (we suggest an event based on the user interests)
 	- Set up user with saved events - yes
 	- Delete saved events for days that havae passed - yes
-	- Basic setup (name, email, city, etc.) - yes (we used the IdentityUser class that ASP.NET automatically creates and added on to this class instead of making our own user class)
+	- Basic setup (name, email, city, etc.) - yes (we used the IdentityUser class that ASP.NET automatically creates upon registration and added on to this class instead of making our own user class)
 	- Send automatic emails - yes
 - Final weeks
 	- Alpha testing part 1 (team tests general cases) - yes
