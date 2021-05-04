@@ -7,7 +7,7 @@ In addition to the basic website, we are also wanted to create user profiles. If
 To implement our website, we planed on using ASP.NET Framework for both front-end and back-end. We planned on pulling data from TicketMaster and Eventful by using their APIs. Eventful removed their API at the end of 2020, so we changed our plan to use StubHub instead. We created stored procedures that we could run for each city in our database to pull the correct API data. We also planned on using a virtual machine (VM) to run these stored procedures. The VM was quickly becoming expensive, so we decided to manually run the stored procedures locally instead of using a VM. While this is not the ideal setup, it saved us a lot of money.
 
 
-## Status Updates:
+## Status Updates
 All finalized written status updates can be found in the “Notebook” folder.
 	
 Here are the links to the status update videos:
