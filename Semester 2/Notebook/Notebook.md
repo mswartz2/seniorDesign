@@ -26,7 +26,80 @@ Two versions of the UML database design (one from the end of the fall semester a
 
 2.	Finalized Plan of Work (expected vs actual)
 
-As a group we were able to accomplish most of our goals, including aggregating event data, filtering and presenting events to site users, and publishing our site. We had also hoped to further test our site using a beta test group. While the relatively recent publishing of our site has delayed this, we are confidant we will be able to beta test our site before the final presentation. We also have had some setbacks with our notification and recommendation emails, though recently have had success in generating recommendation emails. As such we are confidant that we will be able to complete these emails and possibly others before the final presentation. One feature that was planned but will likely remain uncompleted is live API call for locations and date searches outside of our database records. During development, some setbacks and unforeseen complexities delayed development of this feature until it was deemed no longer prudent. We also had several stretch goal involving security, UI improvements and site features. Among these Yikai was  able to improve the site theme and Maria was able to implement a basic Google Maps integration.
+<b>Planned:</b> 
+- Aggregating event data
+	- Put API calls in database
+	- Delete past events
+	- Ensure no duplicate events
+	- Create basic relational database
+	- Create stored procedures for API calls
+	- Set up VM to run stored procedures nightly
+- Developing a general site
+	- Basic UI set up
+- Filtering data
+	- Basic searching
+	- Advanced searching
+	- Display search results
+	- Allow post-search refiltering
+- Set up user database
+	- Set up users with category interests
+	- Find events to suggest to user
+	- Set up user with saved events
+	- Delete saved events for days that havae passed
+	- Basic setup (name, email, city, etc.)
+	- Send automatic emails
+- Final weeks
+	- Alpha testing part 1 (team tests general cases)
+	- Alpha testing part 2 (team tests edge cases)
+	- Publish site
+	- Beta testing (friends and family test site)
+- Stretch goals
+	- Add Google Maps
+	- UI enhancement
+	- Increase security with encryption
+	- Add events to calendar
+	- Add additional APIs
+	- Auto-complete search bar
+	- Add image based on event type
+	- Additional testing
+
+<b>Actual: </b>
+- Aggregating event data
+	- Put API calls in database - yes
+	- Delete past events - yes
+	- Ensure no duplicate events - yes
+	- Create basic relational database - yes
+	- Create stored procedures for API calls - yes
+	- Set up VM to run stored procedures nightly - no (VM was too expensive)
+- Developing a general site
+	- Basic UI set up - yes
+- Filtering data
+	- Basic searching - sort of
+	- Advanced searching - sort of
+		- We decided to combine basic an advanced filtering together to make the site more consistent and less confusing for users
+	- Display search results - yes
+	- Allow post-search refiltering - yes
+- Set up user database
+	- Set up users with category interests - sort of (users still have interests, they are just genres instead of categories, so they are more specific)
+	- Find events to suggest to user - yes (we suggest an event based on the user interests)
+	- Set up user with saved events - yes
+	- Delete saved events for days that havae passed - yes
+	- Basic setup (name, email, city, etc.) - yes (we used the IdentityUser class that ASP.NET automatically creates and added on to this class instead of making our own user class)
+	- Send automatic emails - yes
+- Final weeks
+	- Alpha testing part 1 (team tests general cases) - yes
+	- Alpha testing part 2 (team tests edge cases) - some (could be more in detailed)
+	- Publish site - yes
+	- Beta testing (friends and family test site) - some (could be more detailed)
+- Stretch goals
+	- Add Google Maps - yes
+	- UI enhancement - some (could add more colors, but the site has a clean layout and flow)
+	- Increase security with encryption - no (we found out that the IdentityUser class already encrypts the user's password, and decided this was enough security for the scope of our project)
+	- Add events to calendar - no
+	- Add additional APIs - no
+	- Auto-complete search bar - no (this doesn't apply anymore since we decided to do a drop-down list for locations)
+	- Add image based on event type - no
+	- Additional testing - no
 
 
 ## Summary of Final Implementation
