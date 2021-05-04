@@ -49,6 +49,7 @@ The user profile allows the user to save events that they are thinking about att
 For future direction, we have found more APIs that one might be interested in using, for example, the Meetup API allows one to create, find, delete and update events and the Google calendar API allows users to add an event to their calendar. There are a lot more options with a charge that could be fun to add. On the other side, for Azure, Azure Virtual Machines allows one to have high-performance and durable block storage, which could be useful for future projects if live API calls are being considered. 
 
 4.	Statement of Work
+
 a. Statement of Work – Brent
 		- Helped in a small part to create the event filtering and search mechanism. 
 		- Chiefly responsible for the development of our email sending flow. This required researching which email service provider would be most suitable for our needs as well as how to dynamically assemble our email content from information in our database. 
