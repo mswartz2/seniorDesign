@@ -108,18 +108,18 @@ Two versions of the UML database design (one from the end of the fall semester a
 
 We developed an ASP.NET web application for event filtering. You can see the basic design setup in the "UML_actual" document in the "Notebook" folder. The site has numerous stored procedures that use the StubHub and TicketMaster APIs to get data about the latest events. When the stored procedure runs, it deletes any events that have passed from the database and loads in the new data. For each event, it also checks that we don't already have it loaded into the database. For example, a TicketMaster event would check that we haven't loaded the same TicketMaster event AND that we haven't loaded a StubHub event with the same information. It will also delete any events from user profiles if the date of the saved event has passed.
 
-We created a ViewModel for the event filtering page. The user can filter an event by location, a date range, a maximum price, and/or a general category. Each event that fits the user's filtering criteria is displayed in a card view. The card shows the event name, city, state, location, category, price range, and date. It also has a link to purchase tickets (on StubHub or TicketMaster) and a link to save events to the user's profile. The location of the event is also a link to a Google Maps page for the event's address. The filtering creates a LINQ query that is based on the data that the user entered. We also implemented paging for the data display. The site displays 15 events on each page. This took a bit of time to implement because we had to rewrite some data in our controller and html files so that we could replicate the same search when the user switched pages (we needed to pass the user filters to the updated controller method).
+We created a ViewModel for the event filtering page. The user can filter an event by location, a date range, a maximum price, and/or a general category. The filtering creates a LINQ query that is based on the data that the user entered. The query is executed against the database, and each event that fits the user's filtering criteria is displayed in a card view. The card shows the event name, city, state, location, category, price range, and date. It also has a link to purchase tickets (on StubHub or TicketMaster) and a link to save events to the user's profile. The location of the event is also a link to a Google Maps page for the event's address. We also implemented paging for the data display. The site displays 15 events on each page. This took a bit of time to implement because we had to rewrite some data in our controller and html files so that we could replicate the same search when the user switched pages (we needed to pass the user filters to the updated controller method).
 
 The user profile allows the user to save events that they are thinking about attending to reference later. It also allows users to enter interests. We use the interests for all users to send them an email each week about an upcoming event in their area that fits this interest. To send these weekly emails, we used the Hangfire job scheduler. We also used SendGrid to create some of the basic templating for the emails.
 
 
 2.	Limitations
-	-	The team had originally planned to use an Azure virtual machine to host the SQL database, but we were eventually unable to do this as the cost of this feature would have been too expensive for this project. We had the VM up for about a week, and it had already gotten too expensive.
-	-	The team did not have the knowledge of making live API calls directly through the web application which could have been a useful way to make the API calls. The team was able to make the API calls directly from SQL though. (The live API calls also may have caused us to exceed our daily API call limits.)
+	- The team had originally planned to use an Azure virtual machine to host the SQL database, but we were eventually unable to do this as the cost of this feature would have been too expensive for this project. We had the VM up for about a week, and it had already gotten too expensive.
+	- The team did not have the knowledge of making live API calls directly through the web application which could have been a useful way to make the API calls. The team was able to make the API calls directly from SQL though. (The live API calls also may have caused us to exceed our daily API call limits. Additioanlly, we would need the VM running to make live API calls on a published site.)
 
 3.	Future Direction
 
-For future direction, we have found more APIs that one might be interested in using, for example, the Meetup API allows one to create, find, delete and update events and the Google calendar API allows users to add an event to their calendar. There are a lot more options with a charge that could be fun to add. On the other side, for Azure, Azure Virtual Machines allows one to have high-performance and durable block storage, which could be useful for future projects if live API calls are being considered. 
+For future direction, we have found more APIs that one might be interested in using, for example, the Meetup API allows one to create, find, delete and update events and the Google calendar API allows users to add an event to their calendar. There are a lot more options with a charge that could be fun to add. Additionally, future teams could use an Azure Virtual Machine which allows their site to have high-performance and durable block storage, which could be useful for future projects if live API calls are being considered. Another option for future work is adding some AI or machine learning to the user recommendation. Future teams could train their model to base event suggestions on events saved in the user's profile and the user's responses to previous event suggestions.
 
 4.	Statement of Work
 
@@ -131,14 +131,14 @@ For future direction, we have found more APIs that one might be interested in us
 
 - Statement of Work – Maria
 
-	- Set up general database layout
-	- Set up user profiles and registration
+	- Set up general database layout (setting up the various models and their relationships and figuring out how to use the IdentityUser class)
+	- Set up user profiles and registration (profile page, registration page, which fields are required, etc.)
 	- Set up user interests
 	- Set up event saving/deleting for users
 	- Used LINQ queries and created a view model to allow users to filter events
 	- Set up cards to show events (instead of a table)
 	- Added Google Maps link to each event card
-	- Added paging to events page
+	- Added paging to events filtering page (also had to change filtering so that filters would be saved when users switches pages)
 	- General application testing
 	- Merged everyone's individual sections (fixed typos, removed duplicate information, made wording clearer, etc.) for all status documents and videos
 	- General team leadership
