@@ -58,32 +58,32 @@ For future direction, we have found more APIs that one might be interested in us
 
 - Statement of Work – Maria
 
-		- Set up general database layout
-		- Set up user profiles and registration
-		- Set up user interests
-		- Set up event saving/deleting for users
-		- Used LINQ queries and created a view model to allow users to filter events
-		- Set up cards to show events (instead of a table)
-		- Added Google Maps link to each event card
-		- Added paging to events page
-		- General application testing
-		- Merged everyone's individual sections (fixed typos, removed duplicate information, made wording clearer, etc.) for all status documents and videos
-		- General team leadership
+	- Set up general database layout
+	- Set up user profiles and registration
+	- Set up user interests
+	- Set up event saving/deleting for users
+	- Used LINQ queries and created a view model to allow users to filter events
+	- Set up cards to show events (instead of a table)
+	- Added Google Maps link to each event card
+	- Added paging to events page
+	- General application testing
+	- Merged everyone's individual sections (fixed typos, removed duplicate information, made wording clearer, etc.) for all status documents and videos
+	- General team leadership
 
 - Statement of Work – Yikai
 
-		- Worked on the filtering by date range and city features using C# and LINQ – this allows users to only get the events with desired date and city
-		- Worked on UI design and development of the home page and the events filter page background using HTML and CSS
-		- Created the user recommendation stored procedure using SQL, which creates a table that only stores one event that an user might be interested based on his/her city and interest, so Brent can generated an event recommendation email to send. 
-		- Used a variety of resources and help from team members to resolve all issues encountered and finish tasks assigned. 
+	- Worked on the filtering by date range and city features using C# and LINQ – this allows users to only get the events with desired date and city
+	- Worked on UI design and development of the home page and the events filter page background using HTML and CSS
+	- Created the user recommendation stored procedure using SQL, which creates a table that only stores one event that an user might be interested based on his/her city and interest, so Brent can generated an event recommendation email to send. 
+	- Used a variety of resources and help from team members to resolve all issues encountered and finish tasks assigned. 
 
 - Statement of Work – Kyle
 
-		- Kyle worked on creating various stored procedures to receive and parse the API data from both TicketMaster and StubHub. Once the API data was parsed it was then placed into several relational tables. The stored procedures use Microsoft’s built OACreate & OAMethod to make the API call. The data was then returned and put into a json variable where it was then parsed and put into a temp table. It was then extracted from the temp table and stored in several different tables depending on what data it was. The location information was stored in the Locations table. The genres and category information was stored in their respective table along with the event’s specific genre and/or category. Each data element within the table was then given an ID (primary key) which was then referenced by the main events tables where it stored it as a foreign key. 
-		-	Kyle also helped Yikai develop a user recommendation table and stored procedure which suggests upcoming events to saved users based on their saved interests and location. If the user does not have any saved interests, then it recommends an events just based on their location. 
-		-	Kyle created a stored procedure that deletes any old events, and it also deletes the corresponding information from the other related tables (Location, event genres, event categories, …).
-		-	In total there were 19 stored procedures created.
-		-	Kyle also participated in weekly team meetings and helped other team members when he could.
+	- Kyle worked on creating various stored procedures to receive and parse the API data from both TicketMaster and StubHub. Once the API data was parsed it was then placed into several relational tables. The stored procedures use Microsoft’s built OACreate & OAMethod to make the API call. The data was then returned and put into a json variable where it was then parsed and put into a temp table. It was then extracted from the temp table and stored in several different tables depending on what data it was. The location information was stored in the Locations table. The genres and category information was stored in their respective table along with the event’s specific genre and/or category. Each data element within the table was then given an ID (primary key) which was then referenced by the main events tables where it stored it as a foreign key. 
+	-	Kyle also helped Yikai develop a user recommendation table and stored procedure which suggests upcoming events to saved users based on their saved interests and location. If the user does not have any saved interests, then it recommends an events just based on their location. 
+	-	Kyle created a stored procedure that deletes any old events, and it also deletes the corresponding information from the other related tables (Location, event genres, event categories, …).
+	-	In total there were 19 stored procedures created.
+	-	Kyle also participated in weekly team meetings and helped other team members when he could.
 
 
 ## Reflection on your team’s ability to design, implement, and evaluate a solution
