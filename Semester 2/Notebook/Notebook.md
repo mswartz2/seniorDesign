@@ -8,16 +8,16 @@ To implement our website, we planed on using ASP.NET Framework for both front-en
 
 
 ## Status Updates:
-	All finalized written status updates can be found in the “Notebook” folder.
+All finalized written status updates can be found in the “Notebook” folder.
 	
-	Here are the links to the status update videos:
-		Status 1: https://youtu.be/Cx1q0d0sHgI
-    	Status 2: https://www.youtube.com/watch?v=kk_Hk4CHM1w
-    	Status 3: https://youtu.be/mgc2J6nNpIc
-    	Status 4: https://www.youtube.com/watch?v=3hQ9josHoSY
+Here are the links to the status update videos:
+- Status 1: https://youtu.be/Cx1q0d0sHgI
+- Status 2: https://www.youtube.com/watch?v=kk_Hk4CHM1w
+- Status 3: https://youtu.be/mgc2J6nNpIc
+- Status 4: https://www.youtube.com/watch?v=3hQ9josHoSY
 
-	Here is the link to our final project video(s)
-	-Add a link to final project video
+- Here is the link to our final project video : 
+
 
 ## Project Planning Documents
 1.	Design Requirements and Specifications
