@@ -52,9 +52,9 @@ For future direction, we have found more APIs that one might be interested in us
 
 - Statement of Work – Brent
 
-		- Helped in a small part to create the event filtering and search mechanism. 
-		- Chiefly responsible for the development of our email sending flow. This required researching which email service provider would be most suitable for our needs as well as how to dynamically assemble our email content from information in our database. 
-		- Largely responsible for setting up our job handling server and service, Hangfire.
+	- Helped in a small part to create the event filtering and search mechanism. 
+	- Chiefly responsible for the development of our email sending flow. This required researching which email service provider would be most suitable for our needs as well as how to dynamically assemble our email content from information in our database. 
+	- Largely responsible for setting up our job handling server and service, Hangfire.
 
 - Statement of Work – Maria
 
