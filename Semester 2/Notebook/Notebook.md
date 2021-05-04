@@ -22,7 +22,7 @@ Here is the link to our final project video :
 ## Project Planning Documents
 1.	Design Requirements and Specifications
 	
-2 versions of the UML database design (one from the end of the fall semester and the final version from the spring semester) can be found in the “Notebook” folder. They are titled "UML_planned" and "UML_actual". Our project has a couple of other models that we created to make the backend and UI connect better and to help with sending emails, but they are not important for overall design of the site and database.
+Two versions of the UML database design (one from the end of the fall semester and the final version from the spring semester) can be found in the “Notebook” folder. They are titled "UML_planned" and "UML_actual". Our project has a couple of other models that we created to make the backend and UI connect better and to help with sending emails, but they are not important for overall design of the site and database.
 
 2.	Finalized Plan of Work (expected vs actual)
 
