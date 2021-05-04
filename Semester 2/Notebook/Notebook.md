@@ -45,14 +45,16 @@ The user profile allows the user to save events that they are thinking about att
 	-	The team did not have the knowledge of making live API calls directly through the web application which could have been a useful way to make the API calls. The team was able to make the API calls directly from SQL though. (The live API calls also may have caused us to exceed our daily API call limits.)
 
 3.	Future Direction
-	For future direction, we have found more APIs that one might be interested in using, for example, the Meetup API allows one to create, find, delete and update events and the Google calendar API allows users to add an event to their calendar. There are a lot more options with a charge that could be fun to add. On the other side, for Azure, Azure Virtual Machines allows one to have high-performance and durable block storage, which could be useful for future projects if live API calls are being considered. 
+
+For future direction, we have found more APIs that one might be interested in using, for example, the Meetup API allows one to create, find, delete and update events and the Google calendar API allows users to add an event to their calendar. There are a lot more options with a charge that could be fun to add. On the other side, for Azure, Azure Virtual Machines allows one to have high-performance and durable block storage, which could be useful for future projects if live API calls are being considered. 
+
 4.	Statement of Work
-    a.	Statement of Work – Brent
+a. Statement of Work – Brent
 		- Helped in a small part to create the event filtering and search mechanism. 
 		- Chiefly responsible for the development of our email sending flow. This required researching which email service provider would be most suitable for our needs as well as how to dynamically assemble our email content from information in our database. 
 		- Largely responsible for setting up our job handling server and service, Hangfire.
 
-    b.	Statement of Work – Maria
+b. Statement of Work – Maria
 		- Set up general database layout
 		- Set up user profiles and registration
 		- Set up user interests
@@ -65,19 +67,18 @@ The user profile allows the user to save events that they are thinking about att
 		- Merged everyone's individual sections (fixed typos, removed duplicate information, made wording clearer, etc.) for all status documents and videos
 		- General team leadership
 
-    c.	Statement of Work – Yikai
+c. Statement of Work – Yikai
 		- Worked on the filtering by date range and city features using C# and LINQ – this allows users to only get the events with desired date and city
 		- Worked on UI design and development of the home page and the events filter page background using HTML and CSS
 		- Created the user recommendation stored procedure using SQL, which creates a table that only stores one event that an user might be interested based on his/her city and interest, so Brent can generated an event recommendation email to send. 
 		- Used a variety of resources and help from team members to resolve all issues encountered and finish tasks assigned. 
 
-    d.	Statement of Work – Kyle
+d. Statement of Work – Kyle
 		- Kyle worked on creating various stored procedures to receive and parse the API data from both TicketMaster and StubHub. Once the API data was parsed it was then placed into several relational tables. The stored procedures use Microsoft’s built OACreate & OAMethod to make the API call. The data was then returned and put into a json variable where it was then parsed and put into a temp table. It was then extracted from the temp table and stored in several different tables depending on what data it was. The location information was stored in the Locations table. The genres and category information was stored in their respective table along with the event’s specific genre and/or category. Each data element within the table was then given an ID (primary key) which was then referenced by the main events tables where it stored it as a foreign key. 
 		-	Kyle also helped Yikai develop a user recommendation table and stored procedure which suggests upcoming events to saved users based on their saved interests and location. If the user does not have any saved interests, then it recommends an events just based on their location. 
 		-	Kyle created a stored procedure that deletes any old events, and it also deletes the corresponding information from the other related tables (Location, event genres, event categories, …).
 		-	In total there were 19 stored procedures created.
 		-	Kyle also participated in weekly team meetings and helped other team members when he could.
-
 
 
 ## Reflection on your team’s ability to design, implement, and evaluate a solution
