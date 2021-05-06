@@ -17,6 +17,7 @@ Here are the links to the status update videos:
 - Status 4: https://www.youtube.com/watch?v=3hQ9josHoSY
 
 Here is the link to our final project video : 
+https://youtu.be/T_EJz0iYt9k
 
 
 ## Project Planning Documents
